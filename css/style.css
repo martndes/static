@@ -1,0 +1,192 @@
+body {
+	background: #638db8;
+	font-family: Proxima Nova;
+}
+
+/* GENERAL */
+
+a {
+	text-decoration: none;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#container {
+	width: 960px;
+	margin: auto;
+	padding: 40px;
+	text-align: center;
+}
+
+.button {
+	padding: 20px;
+	border-radius: 3px;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 14px;
+	cursor: pointer;
+	transition: .7s;
+}
+
+.button.white {
+	background: white;
+	color: #638db8;
+}
+
+.button.white:hover {
+	background: #55799e;
+	color: white;
+}
+
+.button.blue {
+	background: #55799e;
+	color: white;
+}
+
+.button.blue:hover {
+	background: white;
+	color: #638db8;
+}
+
+/* NAVIGATION */
+
+nav {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 40px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+nav li:last-child {
+	margin: 0;
+}
+
+nav li a.signup {
+	color: white;
+	padding: 14px;
+	border-radius: 3px;
+	background: #55799e;
+}
+
+nav li a.signup:hover {
+	background: white;
+	color: #55799e;
+}
+
+nav li a {
+	color: #9bbddf;
+	transition: .7s;
+}
+
+nav li a:hover {
+	color: white;
+}
+
+nav a.active {
+	color: white;
+}
+
+/* SLOGAN */
+
+#container h1 {
+	color: white;
+	font-size: 36px;
+	font-weight: 200;
+}
+
+#container h2 {
+	color: white;
+	font-size: 24px;
+	font-weight: 200;
+	margin-top: 12px;
+}
+
+#browser {
+	width: 800px;
+	height: 480px;
+	background: url('../img/browser.png');
+	margin: auto;
+}
+
+#browser h1 {
+	padding-top: 174px;
+}
+
+#browser p {
+	color: #747779;
+	margin-top: 140px;
+}
+
+#browser .button {
+	margin-top: 40px;
+}
+
+.more {
+	margin-top: -2px;
+}
+
+.more:hover {
+	margin-top: -1px;
+}
+
+.more:active {
+	margin-top: 0;
+}
+
+/* FOOTER */
+
+footer {
+	font-size: 12px;
+	font-weight: 700;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -512px;
+	text-align: center;
+}
+
+footer ul {
+	margin-bottom: 12px;
+}
+
+footer ul li {
+	display: inline;
+	margin-right: 12px;
+}
+
+footer ul li a {
+	color: white;
+	color: #9bbddf;
+	transition: .7s;
+}
+
+footer ul li a:hover, footer ul li a.active {
+	color: white;
+}
+
+footer .line {
+	border-top: 1px solid #5b82ab;
+	width: 520px;
+	margin-top: 40px;
+	margin-left: 220px;
+}
+
+footer p {
+	color: #9bbddf;
+	font-size: 12px;
+	padding-top: 40px;
+}
